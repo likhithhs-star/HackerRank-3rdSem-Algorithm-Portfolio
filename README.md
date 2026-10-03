@@ -6,7 +6,7 @@
 - **SRN:** R25EF123
 - **Semester:** 3
 - **GitHub:** https://github.com/likhithhs-star
-- **HackerRank:** ADD PROFILE URL
+- **HackerRank:** https://www.hackerrank.com/profile/likhithhs229962
 
 ## About
 
@@ -22,7 +22,7 @@ The solutions are implemented in C++ and documented with algorithmic approaches,
 | 2 | Birthday Cake Candles | Arrays / Counting | O(N) | O(1) |
 | 3 | Insertion Sort - Part 1 | Sorting | O(N) | O(1) |
 | 4 | Binary Search | Searching | O(log N) | O(1) |
-| 5 | Mark and Toys | Greedy / Sorting | O(N log N) | O(1)* |
+| 5 | Mark and Toys | Greedy / Sorting | O(N log N) | O(log N)* |
 
 ## Problem Links
 
@@ -42,12 +42,15 @@ The solutions are implemented in C++ and documented with algorithmic approaches,
 
 ## Evidence
 
-Accepted-submission screenshots will be added after completing the five submissions.
+Accepted-submission evidence has been captured for Mini-Max Sum, Birthday Cake Candles, Insertion Sort - Part 1, and Mark and Toys. Binary Search was implemented and tested locally as permitted by the activity instructions.
 
 ## Badge
 
-Badge evidence will be added if earned.
+No additional HackerRank badge evidence is claimed at this stage.
 
 ## Reflection
 
 This activity strengthened my understanding of fundamental algorithmic techniques and their efficiency. Mini-Max Sum demonstrated how a single traversal can replace unnecessary sorting when only minimum and maximum values are required. Birthday Cake Candles reinforced the use of counting during traversal rather than storing additional frequency information. Insertion Sort - Part 1 helped me understand shifting elements and maintaining a sorted portion of an array. Binary Search demonstrated divide-and-conquer thinking by repeatedly reducing the search space by half. Mark and Toys introduced a greedy strategy where sorting the prices and selecting the cheapest available items maximizes the number of purchases within a fixed budget. Across the problems, I practiced analysing time and auxiliary space complexity using Big-O notation. I also learned that an efficient solution is not only about producing the correct output, but also about choosing an algorithm appropriate for the constraints. Organizing the solutions in GitHub with separate folders and documentation helped me connect algorithmic problem solving with professional software-development practices.
+
+
+\* Mark and Toys uses `std::sort`; its auxiliary space depends on the sorting implementation and is typically O(log N) for the recursion stack.
